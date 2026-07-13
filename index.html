@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>TASTY RESTAURANT</title>
+        <!--CSS FILE LINKING-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--header-->
+        <header>
+            <h1>TASTY RESTAURANT</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a> 
+            </nav>
+        </header>
+        <!--Hero section-->
+        <section class="hero">
+            <h2>Welcome to Tasty Restaurant</h2>
+            <p>Fresh food | fast Delivery | Best Taste</p>
+            <button onclick="location.href='cart.html'">Order Now</button>
+            <h3>Cart Items: <span id="cartCount">0</span></h3>
+        </section>
+        <section class="special">
+            <h2>Today's Special</h2>
+            <div class="card">
+                <img src="pizza.jpg" alt="pizza" width="250">
+                <h3>cheese pizza</h3>
+                <p>₹199<\</p>
+                <button onclick="addtocart('Cheese Pizza',199)">Add to Cart</button>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <p>&copy; 2026 Tasty Restaurant. All rights reserved.</p>
+            </footer>
+            <!--linking java scirpt-->
+            <script src="script.js"></script>
+        </body>
+</html>

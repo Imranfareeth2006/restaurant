@@ -1,0 +1,243 @@
+/*body*/
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#f5f5f5;
+}
+header {
+    background-color: orange;
+    color:white;
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color:white;
+}
+.hero h2{
+    font-size: 36px;    
+}
+.hero button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor:pointer;
+    transition: background-color 0.5s;
+}
+.hero button:hover {
+    background-color: rgba(255, 0, 0, 0.123);
+    color: red;
+}
+.special{
+    text-align: center;
+    margin-top: 30px;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    margin: auto;
+    padding:20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+.card button:hover {
+    background-color: rgb(219, 228, 219);
+    color: black;
+}
+footer{
+    background-color: orange;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    margin-top:30px;
+}
+<!--css for menu-->
+.Menu{
+    text-align:center;
+    margin-top:30px;
+}
+
+.card{
+    width:250px;
+    display:inline-block;
+    margin:20px;
+    padding:20px;
+    border:1px solid gray;
+    background:white;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+}
+
+.card button{
+    background:green;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:darkgreen;
+}
+.about{
+    width:80%;
+    margin:auto;
+    padding:30px;
+    background:white;
+    margin-top:30px;
+    border-radius:10px;
+}
+
+.about h2{
+    text-align:center;
+}
+
+.about p{
+    font-size:18px;
+    line-height:30px;
+}
+
+.about ul{
+    font-size:18px;
+}
+.contact{
+
+    width:60%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    margin-top:30px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+}
+
+.contact input{
+
+    width:80%;
+
+    padding:10px;
+
+    font-size:16px;
+
+}
+
+.contact textarea{
+
+    width:80%;
+
+    padding:10px;
+
+    font-size:16px;
+
+}
+
+.contact button{
+
+    background:green;
+
+    color:white;
+
+    padding:10px 30px;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.contact button:hover{
+
+    background:darkgreen;
+}
+.cart{
+
+    width:60%;
+
+    margin:auto;
+
+    margin-top:30px;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+.cart ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.cart li{
+
+    padding:10px;
+
+    border-bottom:1px solid gray;
+
+    font-size:18px;
+
+}
+
+.cart button{
+
+    background:green;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+.cart button:hover{
+
+    background:darkgreen;
+
+}

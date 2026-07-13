@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Tasty Restaurant</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href ="cart.html">Cart</a>
+        </nav>
+
+    </header>
+
+    <section class="Menu">
+
+        <h2>OUR MENU</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <img src="pizza.jpg" alt="Pizza">
+                <h3>Cheese Pizza</h3>
+                <p>₹199</p>
+                <button onclick="addtocart('Cheese Pizza', 199)">Add to Cart</button>
+                
+            </div>
+
+            <div class="card">
+                <img src="burger.jpg" alt="Burger">
+                <h3>Chicken Burger</h3>
+                <p>₹149</p>
+                <button onclick="addtocart('Chicken Burger', 149)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="sandwich.jpg" alt="Sandwich">
+                <h3>Veg Sandwich</h3>
+                <p>₹99</p>
+                <button onclick="addtocart('Veg Sandwich', 99)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="juice.jpg" alt="Juice">
+                <h3>Fresh Juice</h3>
+                <p>₹79</p>
+                <button onclick="addtocart('Fresh Juice', 79)">Add to Cart</button>
+            </div>
+
+        </div>
+        <hr>
+        <section class="cart">
+            <h2>Cart Items</h2>
+            <ul id="cartItems">
+                </ul>
+            <h3 id="totalBill">Total Bill: ₹0</h3>
+            <button onclick="checkout()">Checkout</button>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Tasty Restaurant</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
