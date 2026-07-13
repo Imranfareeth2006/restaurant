@@ -24,9 +24,10 @@ Restaurant-Website/
 │── menu.html
 │── about.html
 │── contact.html
+|── cart.html
 │── style.css
 │── script.js
-│── images/
+│── images\
 └── README.md
 ```
 
