@@ -9,7 +9,6 @@ Tasty Restaurant Website is a simple and responsive restaurant website developed
 - Food Menu
 - About Section
 - Contact Section
-- Attractive UI Design
 - Mobile Friendly Layout
 
 ##  Technologies Used
