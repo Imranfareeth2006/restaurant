@@ -2,6 +2,19 @@
 
 ##  Project Description
 Tasty Restaurant Website is a simple and responsive restaurant website developed using HTML, CSS, and JavaScript. It allows users to explore the restaurant menu, view food items, and experience an attractive user interface.
+# screenshot
+
+## Home Page
+
+![Home Page](screenshots/home.png)
+
+## Menu Page
+
+![Menu Page](screenshots/menu.png)
+
+## Contact Page
+
+![Contact Page](screenshots/contact.png)
 
 ##  Features
 - Responsive Homepage
